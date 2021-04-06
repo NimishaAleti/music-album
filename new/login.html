@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NSH.org|Login</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+
+           <!-- function myfunctiom(){
+                var un=document.forms["myform"]["uname"].value;
+                var pw=document.forms["myforms"]["pass"].value;
+                if(un=="student"&& pw=="1234"){
+                    <a href="index.html"></a>
+                }
+                else{
+                    alert("Invalid userName and Password");
+                }
+            }
+        </script>-->
+    </head>
+    <body>
+      <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">NSH.org</h1>
+        <div class="container">
+            <button type="button" class="btn btn-header">Get our Latest Album</button>
+        </div>
+        <button type="button" class="btn btn-header btn-play">&#9658;</button>
+    </header>
+        
+        
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/Users/NIMISHA/Desktop/new/index.html" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="BTS.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+</body>
+</html>
