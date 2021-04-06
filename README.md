@@ -47,14 +47,6 @@ Download zip file and Unzip file on your local server.
 Put this file inside “c:/wamp/www/” .
 Database Configuration:
 Open phpmyadmin
-Create Database named “shop”.
-Import database shop.sql.
-Open Your browser put inside URL:
-“http://localhost/store/”
-To Login as admin put inside URL:”http://localhost/store”
-user login details:
-Login Id: yugeshverma@gmail.com
-Password:123456
-
-
-visit- https://projkectworlds.in
+Create Database named “storee”.
+Import database storee.sql.
+Open Your browser put inside url
